@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content:center;
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+main{
+    padding-top: 5vh;
+}
+
+#card-main{
+    max-width: 35rem; 
+    border-radius: 8px 8px 15px 15px; 
+    box-shadow: 5px 5px 10px 5px #00000088;
+}
+
+
+/* .card-header{
+    border: groove 5px #fff;
+    background-color: black;
+} */
+.card-title{
+    display: flex;
+    justify-content:space-around;
+}
+
+.panel{
+    width: 100% !important;
+    padding-block-start: 5rem;
+    border: groove 5px #fff;
+    background-color: black;
+}
+
+
+#btn-0,
+#btn-1,
+#btn-2,
+#btn-3,
+#btn-4,
+#btn-5,
+#btn-6,
+#btn-7,
+#btn-8,
+#btn-9,
+#btn-delete,
+#btn-multiply,
+#btn-subtract,
+#btn-add,
+#btn-equal{
+    width: 5rem;
+    border-color: #00d4ff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+#btn-equal{
+    width: 11.6rem;
+    margin-left: 9px;
+    margin-top: 13px;
+}
+
+#btns-grups{
+    border: 5px inset #636363;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#btn-ac,
+#btn-parentheses,
+#btn-percent,
+#btn-divide,
+#btn-decimal{
+    width:4rem; 
+    height:3rem;
+    margin-right: 21px;
+    font-weight: 900;
+    font-size:x-large;
+} 
+

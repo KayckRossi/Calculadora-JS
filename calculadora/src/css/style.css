@@ -12,7 +12,7 @@ body{
     background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 main{
-    padding-top: 5vh;
+    padding: 3rem;
 }
 
 #card-main{
@@ -22,20 +22,34 @@ main{
 }
 
 
-/* .card-header{
-    border: groove 5px #fff;
-    background-color: black;
-} */
+.card-header{
+    padding-top: 1rem; 
+    margin:8px;
+    border: none;
+}
 .card-title{
     display: flex;
     justify-content:space-around;
 }
 
 .panel{
+    color: #fff;
     width: 100% !important;
-    padding-block-start: 5rem;
+    padding-block-start: 6rem;
     border: groove 5px #fff;
-    background-color: black;
+    background-color:rgba(6, 6, 6, 0.8);
+}
+
+.panel:placeholder-shown{/*alterar cor da barrinha de pesquisa kkk*/
+    color: #ff0000;
+    padding-left: 5px;
+}
+
+.panel::first-line{ /*alterar cor do placeholder*/
+    color: #00d4ff;
+    font-size:x-large;
+    font-weight:900;
+    padding-right:10px;
 }
 
 
@@ -61,6 +75,7 @@ main{
     margin-top: 15px;
     font-weight: 800;
     font-size: 1rem;
+    box-shadow: 2px 1px 1px 2px #000000;
 }
 
 #btn-equal{
@@ -72,7 +87,9 @@ main{
 #btns-grups{
     border: 5px inset #636363;
     border-radius: 10px;
-    padding: 50px;
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
 }
 
 #btn-ac,
@@ -82,8 +99,8 @@ main{
 #btn-decimal{
     width:4rem; 
     height:3rem;
-    margin-right: 21px;
-    font-weight: 900;
+    font-weight:1000;
     font-size:x-large;
 } 
+
 

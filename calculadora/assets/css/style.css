@@ -37,6 +37,7 @@ main{
     width: 100% !important;
     padding-block-start: 6rem;
     border: groove 5px #fff;
+    border-radius: 8px;
     background-color:rgba(6, 6, 6, 0.8);
 }
 

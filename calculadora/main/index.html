@@ -7,64 +7,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <script src="../assets/js/index.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.3.0-web/css/all.min.css">
     <title>Calculadora</title>
 </head>
 
 <body>
     <main>
-
         <div class="d-flex justify-content-center ">
 
             <div class="card text-white bg-dark mb-3" id="card-main">
                 <form>
 
-                <div class="card-header">
-                    <input type="text" id="input1" class="panel" placeholder="0"  >
-                </div>
-                <hr>
-
-    
-                <div class="card-body">
-                    <div class="card-title">
-                    
-                        <button class="btn btn-success" id="btn-ac">AC</button>
-                        <button class="btn btn-info" id="btn-parentheses">()</button>
-                        <button class="btn btn-info" id="btn-percent">%</button>
-                        <button class="btn btn-info" id="btn-divide">/</button>
-                        <button class="btn btn-info" id="btn-decimal">,</button>
+                    <div class="card-header">
+                        <div id="display" class="display">
+                            <p>0</p>
+                        </div>
                     </div>
-            
-                    <div class="d-grid gap-2 d-md-block" id="btns-grups">
-                        <button class="btn btn-dark" type="button" id="btn-7">7</button>
-                        <button class="btn btn-dark" type="button" id="btn-8">8</button>
-                        <button class="btn btn-dark" type="button" id="btn-9">9</button>
-                        <button class="btn btn-info" type="button" id="btn-subtract">-</button>
-                        <button class="btn btn-dark" type="button" id="btn-5">5</button>
-                        <button class="btn btn-dark" type="button" id="btn-6">6</button>
-                        <button class="btn btn-dark" type="button" id="btn-4">4</button>
-                        <button class="btn btn-info" type="button" id="btn-add">+</button>
-                        <button class="btn btn-dark" type="button" id="btn-3">3</button>
-                        <button class="btn btn-dark" type="button" id="btn-2">2</button>
-                        <button class="btn btn-info" type="button" id="btn-delete">del</button>
-                        <button class="btn btn-info" type="button" id="btn-multiply">x</button>
-                        <button class="btn btn-dark" type="button" id="btn-1">1</button>
-                        <button class="btn btn-dark" type="button" id="btn-0">0</button>
-                        <button class="btn btn-info" type="button" id="btn-equal">=</button>
+                    <hr>
+
+
+                    <div class="card-body">
+                        <div class="card-title">
+
+                            <button class="btn btn-success" id="btn-ac">AC</button>
+                            <button class="btn btn-info" id="btn-parentheses">()</button>
+                            <button class="btn btn-info" id="btn-percent">%</button>
+                            <button class="btn btn-info" id="btn-divide">/</button>
+                            <button class="btn btn-info" id="btn-decimal">,</button>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-block" id="btns-grups">
+
+                            <button class="btn btn-dark" type="button" id="btn-7">7</button>
+                            <button class="btn btn-dark" type="button" id="btn-8">8</button>
+                            <button class="btn btn-dark" type="button" id="btn-9">9</button>
+                            <button class="btn btn-info" type="button" id="btn-subtract">-</button>
+                            <button class="btn btn-dark" type="button" id="btn-5">5</button>
+                            <button class="btn btn-dark" type="button" id="btn-6">6</button>
+                            <button class="btn btn-dark" type="button" id="btn-4">4</button>
+                            <button class="btn btn-info" type="button" id="btn-add">+</button>
+                            <button class="btn btn-dark" type="button" id="btn-3">3</button>
+                            <button class="btn btn-dark" type="button" id="btn-2">2</button>
+                            <button class="btn btn-info" type="button" id="btn-delete">del</button>
+                            <button class="btn btn-info" type="button" id="btn-multiply">x</button>
+                            <button class="btn btn-dark" type="button" id="btn-1">1</button>
+                            <button class="btn btn-dark" type="button" id="btn-0">0</button>
+                            <button class="btn btn-info" type="button" id="btn-equal">=</button>
+
+                        </div>
 
                     </div>
-            
-                </div>
-                
+
                 </form>
             </div>
 
 
         </div>
-
     </main>
-<script src="/calculadora/src/js/index.js"></script>
+
+    <footer>
+        <div class="social">
+
+
+            <button>
+                <a target="_blank" href="https://www.instagram.com/kayck.rossi/?__coig_restricted=1">
+                    <i id="svg" class="fa-brands fa-instagram">
+                        <h5>Kayck.Rossi</h5>
+                    </i>
+                </a>
+            </button>
+
+
+
+            <button>
+                <a class="link" href="https://github.com/KayckRossi" target="_blank">
+                    <i id="svg" class="fa-brands fa-github">
+                        <h5>Kayck.Rossi</h5>
+                    </i>
+                </a>
+            </button>
+
+
+
+            <button>
+                <a href="https://www.linkedin.com/in/kayck-rossi-a87344249/" target="_blank">
+                    <i  id="svg"class="fa-brands fa-linkedin" id="fa-linkedin">
+                        <h5>KayckRossi</h5>
+                    </i>
+                </a>
+            </button>
+
+
+
+        </div>
+    </footer>
+
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>

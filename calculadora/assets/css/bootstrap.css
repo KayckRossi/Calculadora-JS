@@ -4521,8 +4521,8 @@ textarea.form-control-lg {
 }
 
 .card-body {
-  flex: 1 1 auto;
-  padding: 1rem 1rem;
+  /* flex: 1 1 auto; */
+  padding: 1rem;
 }
 
 .card-title {
@@ -6699,7 +6699,7 @@ textarea.form-control-lg {
 }
 
 .d-grid {
-  display: grid !important;
+  /* display: grid !important; */
 }
 
 .d-table {

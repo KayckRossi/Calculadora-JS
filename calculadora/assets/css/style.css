@@ -20,7 +20,7 @@ main {
 }
 
 #card-main {
-    max-width: 35rem;
+    max-width: 29rem;
     padding-top: 1rem;
     border-radius: 8px 8px 15px 15px;
     box-shadow: 5px 5px 10px 5px #00000088;
@@ -92,22 +92,22 @@ main {
 #btns-grups {
     border: 5px inset #636363;
     border-radius: 10px;
-    padding-right: 10px;
-    padding-left: 50px;
+    padding-right: 2px;
     padding-bottom: 10px;
     cursor: pointer;
 }
 
 #btn-ac,
-#btn-parentheses,
 #btn-percent,
 #btn-divide,
-#btn-decimal {
+#btn-decimal,
+.parente-Left,
+.parente-Right {
     width: 4rem;
     height: 3rem;
     font-weight: 1000;
     font-size: x-large;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .social {

@@ -20,7 +20,7 @@
 
                     <div class="card-header">
                         <div id="display" class="display">
-                            <p>0</p>
+                            <p id="display-p" class="display-p">0</p>
                         </div>
                     </div>
                     <hr>
@@ -30,30 +30,29 @@
                         <div class="card-title">
 
                             <button class="btn btn-success" id="btn-ac">AC</button>
-                            <button class="btn btn-info parente-Left" id="btn-parentheses-left">(</button>
-                            <button class="btn btn-info parente-Right" id="btn-parentheses-right">)</button>
-                            <button class="btn btn-info" id="btn-percent">%</button>
-                            <button class="btn btn-info" id="btn-divide">/</button>
-                            <button class="btn btn-info" id="btn-decimal">,</button>
+                            <button class="btn btn-info parente-Left num" type="button" id="btn-parentheses-left">(</button>
+                            <button class="btn btn-info parente-Right num" type="button" id="btn-parentheses-right">)</button>
+                            <button class="btn btn-info num" type="button"  id="btn-decimal">,</button>
                         </div>
 
                         <div class="d-grid gap-2 d-md-block" id="btns-grups">
 
-                            <button class="btn btn-dark" type="button" id="btn-7">7</button>
-                            <button class="btn btn-dark" type="button" id="btn-8">8</button>
-                            <button class="btn btn-dark" type="button" id="btn-9">9</button>
-                            <button class="btn btn-info" type="button" id="btn-subtract">-</button>
-                            <button class="btn btn-dark" type="button" id="btn-5">5</button>
-                            <button class="btn btn-dark" type="button" id="btn-6">6</button>
-                            <button class="btn btn-dark" type="button" id="btn-4">4</button>
-                            <button class="btn btn-info" type="button" id="btn-add">+</button>
-                            <button class="btn btn-dark" type="button" id="btn-3">3</button>
-                            <button class="btn btn-dark" type="button" id="btn-2">2</button>
-                            <button class="btn btn-info" type="button" id="btn-delete">del</button>
-                            <button class="btn btn-info" type="button" id="btn-multiply">x</button>
-                            <button class="btn btn-dark" type="button" id="btn-1">1</button>
-                            <button class="btn btn-dark" type="button" id="btn-0">0</button>
-                            <button class="btn btn-info" type="button" id="btn-equal">=</button>
+                            <button class="btn btn-dark num" type="button" id="btn-7">7</button>
+                            <button class="btn btn-dark num" type="button" id="btn-8">8</button>
+                            <button class="btn btn-dark num" type="button" id="btn-9">9</button>
+                            <button class="btn btn-info keyOp op" type="button" id="btn-subtract">-</button>
+                            <button class="btn btn-dark num" type="button" id="btn-5">5</button>
+                            <button class="btn btn-dark num" type="button" id="btn-6">6</button>
+                            <button class="btn btn-dark num" type="button" id="btn-4">4</button>
+                            <button class="btn btn-info keyOp op" type="button" id="btn-add">+</button>
+                            <button class="btn btn-dark num" type="button" id="btn-3">3</button>
+                            <button class="btn btn-dark num" type="button" id="btn-2">2</button>
+                            <!-- <button class="btn btn-info keyDel" type="button" id="btn-delete">del</button> -->
+                            <button class="btn btn-info keyOp op" type="button"  id="btn-divide">/</button>
+                            <button class="btn btn-info keyOp op" type="button" id="btn-multiply">x</button>
+                            <button class="btn btn-dark num" type="button" id="btn-1">1</button>
+                            <button class="btn btn-dark num" type="button" id="btn-0">0</button>
+                            <button class="btn btn-info keyOp res" type="button" id="btn-equal">=</button>
 
                         </div>
 

@@ -78,3 +78,5 @@ keyEqual.addEventListener("click", (evt) => {
   const res=eval(display.innerHTML)
   display.innerHTML=res
 })
+
+// made by:KayckRossi 
